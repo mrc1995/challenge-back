@@ -41,5 +41,7 @@ Servicio GET: http://meliapp-env.eba-my3achhe.us-east-1.elasticbeanstalk.com/api
 ![img_1.png](img_1.png)
 
 
+# Nota
+Para las fluctuaciones agresivas entre 100 y 1 millòn de peticiones se propone tener varias instancias de la aplicaciòn desplegadas
 
 
