@@ -1,9 +1,10 @@
 # Chalenge back
-El chalenge fue realizado en java haciendo uso de el framework spring boot y fue desplegado en una cuenta de AWS propia haciendo uso
-de los recuros RDS para desplegar una base de datos postgres donde
+El chalenge fue implementado en java con 
+spring boot y fue desplegado en una cuenta de AWS propia, usando
+recuros como RDS para desplegar una base de datos postgres donde
 se esta almacenando la información de cada petición, ademas se hizo uso de Elastic
 Beanstalk donde se desplego una app llamada meli para exponer los microservicios donde se evalua si una secuencia pertenece a un
-mutanto o a un humano.
+mutante o a un humano.
 
 #Script base de datos
 
