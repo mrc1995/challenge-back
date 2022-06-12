@@ -10,8 +10,8 @@ spring:
       path: "/h2"
   datasource:
     url: "jdbc:postgresql://magneto-db.chuwitxsphsw.us-east-1.rds.amazonaws.com/meli"
-    username: "postgres"
-    password: "angela2001"
+    username: ""
+    password: ""
     driverClassName: "org.postgresql.Driver"
   jpa:
     databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
