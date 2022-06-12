@@ -36,7 +36,7 @@ Nota: En mi caso hice uso de intellijec idea para subir la aplicación.
 
 URL: http://meliapp-env.eba-my3achhe.us-east-1.elasticbeanstalk.com
 Servicio POST: http://meliapp-env.eba-my3achhe.us-east-1.elasticbeanstalk.com/api/mutant, en el body de la petición
-se debe enviar el dna sobre el cual se va a realizar de mutante o humano.
+se debe enviar el dna sobre el cual se va a realizar la validación si es mutante o humano.
 ![img.png](img.png)
 Servicio GET: http://meliapp-env.eba-my3achhe.us-east-1.elasticbeanstalk.com/api/stats
 ![img_1.png](img_1.png)
