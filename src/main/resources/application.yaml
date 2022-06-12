@@ -1,0 +1,17 @@
+server:
+  port: 8080
+spring:
+  application:
+    name: "meli"
+    default-schema: "magneto"
+  h2:
+    console:
+      enabled: true
+      path: "/h2"
+  datasource:
+    url: "jdbc:postgresql://magneto-db.chuwitxsphsw.us-east-1.rds.amazonaws.com/meli"
+    username: "postgres"
+    password: "angela2001"
+    driverClassName: "org.postgresql.Driver"
+  jpa:
+    databasePlatform: "org.hibernate.dialect.PostgreSQLDialect"
