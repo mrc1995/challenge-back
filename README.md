@@ -23,7 +23,8 @@ Para ejecutar la app se debe tener instalado el JDK de java en versión 11, a co
 
 1. Se debe tener instalado postgres y haciendo uso de pgadmin crear un server
 2. Se deben ejecutar los script mencionados anteriormente.
-3. En un CMD se debe ejecutar el comando gradlew build para realizar la construcción del proyecto
+3. Se deben agregar los datos de conexión de la base de datos en el application.yaml
+4. En un CMD se debe ejecutar el comando gradlew build para realizar la construcción del proyecto
 una vez este quede en estado Build Succesful.
 4. En el CMD se puede ejecutar el comando gradlew bootRun para subir la aplicación.
 5. Localmente esta quedara expuesta para hacer consumos de los servicios mediante
